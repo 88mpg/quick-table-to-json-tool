@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*overflow-y: hidden;*/
+}
+textarea {
+  height: 66vh;
+}
+#output {
+  float: right;
+  width: 50%;
+}
+#data {
+  float: left;
+  width: 50%
+}
+#data:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+#convert,
+#copy,
+#save {
+  height: 50px;
+  font-size: 1rem;
+  padding: 10px;
+  float: left;
+}
+#convert {
+  width: 50%;
+}
+#copy {
+  width: 25%;
+}
+#save {
+  width: 25%;
+}
+table {
+  width: 100%;
+}
