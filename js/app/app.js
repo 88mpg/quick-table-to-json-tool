@@ -5,3 +5,5 @@ $('button').on('click', function() {
   $('#output').text(JSON.stringify(table, null, 2));
   // $('table').hide();
 });
+
+var client = new ZeroClipboard($('#copy'));
