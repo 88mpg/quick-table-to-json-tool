@@ -5,9 +5,10 @@
 }
 body {
   /*overflow-y: hidden;*/
+  font-family: helvetica;
 }
 textarea {
-  height: 66vh;
+  height: 50vh;
 }
 #output {
   float: right;
@@ -33,12 +34,23 @@ textarea {
 #convert {
   width: 50%;
 }
-#copy {
-  width: 25%;
-}
+#copy,
 #save {
   width: 25%;
 }
 table {
   width: 100%;
+}
+
+.button {
+  background-color: #666;
+  color: white;
+  line-height: 2;
+  text-align: center;
+  box-shadow: inset 0 0 2px #000;
+}
+.button:hover,
+.button.zeroclipboard-is-hover {
+  cursor: pointer;
+  background-color: #444;
 }
